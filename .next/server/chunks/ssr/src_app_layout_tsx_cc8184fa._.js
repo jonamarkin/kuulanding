@@ -1,0 +1,3 @@
+module.exports=[27572,a=>{"use strict";var b=a.i(89138);function c({children:a}){return(0,b.jsxs)("html",{lang:"en",className:"scroll-smooth",children:[(0,b.jsx)("head",{children:(0,b.jsx)("meta",{name:"viewport",content:"width=device-width, initial-scale=1, viewport-fit=cover"})}),(0,b.jsx)("body",{className:"antialiased",children:a})]})}a.s(["default",()=>c,"metadata",0,{title:"Happy 27th Birthday, Kuu 💜",description:"A special birthday celebration for my beautiful Clarion Clara — my Kuu.",openGraph:{title:"Happy 27th Birthday, Kuu 💜",description:"A love letter to the most beautiful soul I know.",type:"website"}}])}];
+
+//# sourceMappingURL=src_app_layout_tsx_cc8184fa._.js.map
