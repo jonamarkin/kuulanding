@@ -7,38 +7,110 @@ import Image from "next/image";
 const chapters = [
   {
     id: 1,
-    title: "The First Chapter",
-    subtitle: "Where it all began",
+    title: "Your Radiant Smile",
+    subtitle: "A moment I treasure",
     description:
-      "The moment you walked into my life, everything changed. Your gentle soul and radiant smile captivated me instantly, and I knew my life would never be the same.",
+      "Every time you smile, the whole world lights up. This year, I pray that God fills your days with so much joy that this beautiful smile never fades.",
     image: "/images/IMG-20200510-WA0049.jpg",
     align: "left" as const,
   },
   {
     id: 2,
-    title: "Growing in Faith & Love",
-    subtitle: "A bond built on grace",
+    title: "Our Silly Moments",
+    subtitle: "Laughter with you",
     description:
-      "Watching your faith and seeing the Godly woman you are has been my greatest inspiration. Your wisdom and understanding guide us through every season.",
-    image: "/images/PXL_20210725_121704806.PORTRAIT.jpg",
+      "No one makes me laugh the way you do. This year, may we share even more of these silly, carefree, joyful moments together.",
+    image: "/images/PXL_20221016_120959812.PORTRAIT.jpg",
     align: "right" as const,
   },
   {
     id: 3,
-    title: "Countless Adventures",
-    subtitle: "Creating memories",
+    title: "Quiet Evenings Together",
+    subtitle: "Peace in your presence",
     description:
-      "From quiet mornings to our biggest adventures, every second with you is a treasure. Your laugh is the soundtrack to my favorite memories.",
-    image: "/images/PXL_20221127_220802543.PORTRAIT.jpg",
+      "Some of my favorite moments are the quiet ones — just being with you. I wish you a year filled with peace, rest, and the warm comfort of love.",
+    image: "/images/Snapchat-1338999620.jpg",
     align: "left" as const,
   },
   {
     id: 4,
-    title: "Today & Always",
-    subtitle: "Happy 27th, My Kuu",
+    title: "Celebrating You",
+    subtitle: "You deserve the world",
     description:
-      "Today we celebrate 27 years of you bringing light into this world. You are breathtakingly beautiful, inside and out. I can't wait for all our tomorrows.",
-    image: "/images/IMG_20240914_214417_582.jpg",
+      "Every celebration with you feels magical. This year, I pray you are celebrated, honored, and loved beyond measure — because you deserve nothing less.",
+    image: "/images/PXL_20201219_065438473.PORTRAIT.jpg",
+    align: "right" as const,
+  },
+  {
+    id: 5,
+    title: "Walking in Faith",
+    subtitle: "God's grace upon you",
+    description:
+      "Your faith inspires me every single day. This year, may God's grace overflow in your life, may His favor surround you, and may His plans for you unfold beautifully.",
+    image: "/images/PXL_20210725_121704806.PORTRAIT.jpg",
+    align: "left" as const,
+  },
+  {
+    id: 6,
+    title: "Your Gentle Heart",
+    subtitle: "Kindness that heals",
+    description:
+      "You love so gently and so deeply. I pray that this year, every ounce of kindness you've given comes back to you multiplied — you deserve all the love in the world.",
+    image: "/images/PXL_20211121_113441231.PORTRAIT.jpg",
+    align: "right" as const,
+  },
+  {
+    id: 7,
+    title: "Adventures Await",
+    subtitle: "New places, new memories",
+    description:
+      "Every adventure is better with you by my side. This year, may we explore new places, try new things, and create memories that last a lifetime.",
+    image: "/images/PXL_20211224_125443302.PORTRAIT.jpg",
+    align: "left" as const,
+  },
+  {
+    id: 8,
+    title: "Golden Moments",
+    subtitle: "The little things",
+    description:
+      "It's the little things with you that mean the most — a look, a touch, a shared silence. I wish you a year where every small moment feels golden.",
+    image: "/images/PXL_20220710_211041316.PORTRAIT.jpg",
+    align: "right" as const,
+  },
+  {
+    id: 9,
+    title: "Strength & Grace",
+    subtitle: "You inspire me",
+    description:
+      "The way you carry yourself with such strength and grace amazes me. This year, may you walk boldly into every room knowing how powerful and beautiful you are.",
+    image: "/images/PXL_20221127_220802543.PORTRAIT.jpg",
+    align: "left" as const,
+  },
+  {
+    id: 10,
+    title: "Dreams Coming True",
+    subtitle: "Your season of harvest",
+    description:
+      "You have worked so hard and believed so faithfully. I pray that this is the year your biggest dreams begin to manifest — you deserve every blessing coming your way.",
+    image: "/images/PXL_20221201_183345560.MP.jpg",
+    align: "right" as const,
+  },
+  {
+    id: 11,
+    title: "Unstoppable Together",
+    subtitle: "Us against the world",
+    description:
+      "Together, there is nothing we can't conquer. This year, may our bond grow even deeper, our love even stronger, and our partnership even more unshakable.",
+    image: "/images/IMG_6529.jpg",
+    align: "left" as const,
+  },
+  {
+    id: 12,
+    title: "Here's to 27",
+    subtitle: "Happy Birthday, My Kuu",
+    description:
+      "This is your year, my love. A year of answered prayers, overflowing joy, divine surprises, and a love that only grows sweeter. Happy 27th Birthday, my Clarion Clara. I love you endlessly.",
+    image: "/images/IMG_20251013_210848_209.jpg",
     align: "right" as const,
   },
 ];
@@ -66,7 +138,7 @@ export default function Story() {
             transition={{ duration: 0.8 }}
             className="font-serif text-3xl sm:text-4xl md:text-5xl text-purple-900 mb-4"
           >
-            Our Story
+            Beautiful Moments & Wishes
           </motion.h2>
           <motion.p
             initial={{ opacity: 0, y: 20 }}
@@ -75,7 +147,7 @@ export default function Story() {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="font-sans text-sm sm:text-base text-purple-600/80 max-w-2xl mx-auto"
           >
-            Every moment with you is a beautiful chapter in my favorite book.
+            Every moment with you is a gift. Here are some of my favorites, along with my wishes for your beautiful new year.
           </motion.p>
         </div>
 
@@ -92,9 +164,8 @@ export default function Story() {
             {chapters.map((chapter) => (
               <div
                 key={chapter.id}
-                className={`relative flex flex-col md:flex-row items-center justify-between group ${
-                  chapter.align === "right" ? "md:flex-row-reverse" : ""
-                }`}
+                className={`relative flex flex-col md:flex-row items-center justify-between group ${chapter.align === "right" ? "md:flex-row-reverse" : ""
+                  }`}
               >
                 {/* Timeline Dot */}
                 <motion.div
@@ -143,11 +214,10 @@ export default function Story() {
                     whileInView={{ opacity: 1, x: 0 }}
                     viewport={{ once: true, margin: "-100px" }}
                     transition={{ duration: 0.8, delay: 0.2 }}
-                    className={`bg-white/50 backdrop-blur-sm p-5 sm:p-8 rounded-2xl border border-purple-100 shadow-sm ${
-                      chapter.align === "left"
-                        ? "md:text-left"
-                        : "md:text-right"
-                    }`}
+                    className={`bg-white/50 backdrop-blur-sm p-5 sm:p-8 rounded-2xl border border-purple-100 shadow-sm ${chapter.align === "left"
+                      ? "md:text-left"
+                      : "md:text-right"
+                      }`}
                   >
                     <span className="font-sans text-xs tracking-widest uppercase text-purple-400 mb-2 block">
                       {chapter.subtitle}

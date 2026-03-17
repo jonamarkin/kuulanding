@@ -803,34 +803,98 @@ var _s = __turbopack_context__.k.signature();
 const chapters = [
     {
         id: 1,
-        title: "The First Chapter",
-        subtitle: "Where it all began",
-        description: "The moment you walked into my life, everything changed. Your gentle soul and radiant smile captivated me instantly, and I knew my life would never be the same.",
+        title: "Your Radiant Smile",
+        subtitle: "A moment I treasure",
+        description: "Every time you smile, the whole world lights up. This year, I pray that God fills your days with so much joy that this beautiful smile never fades.",
         image: "/images/IMG-20200510-WA0049.jpg",
         align: "left"
     },
     {
         id: 2,
-        title: "Growing in Faith & Love",
-        subtitle: "A bond built on grace",
-        description: "Watching your faith and seeing the Godly woman you are has been my greatest inspiration. Your wisdom and understanding guide us through every season.",
-        image: "/images/PXL_20210725_121704806.PORTRAIT.jpg",
+        title: "Our Silly Moments",
+        subtitle: "Laughter with you",
+        description: "No one makes me laugh the way you do. This year, may we share even more of these silly, carefree, joyful moments together.",
+        image: "/images/PXL_20221016_120959812.PORTRAIT.jpg",
         align: "right"
     },
     {
         id: 3,
-        title: "Countless Adventures",
-        subtitle: "Creating memories",
-        description: "From quiet mornings to our biggest adventures, every second with you is a treasure. Your laugh is the soundtrack to my favorite memories.",
-        image: "/images/PXL_20221127_220802543.PORTRAIT.jpg",
+        title: "Quiet Evenings Together",
+        subtitle: "Peace in your presence",
+        description: "Some of my favorite moments are the quiet ones — just being with you. I wish you a year filled with peace, rest, and the warm comfort of love.",
+        image: "/images/Snapchat-1338999620.jpg",
         align: "left"
     },
     {
         id: 4,
-        title: "Today & Always",
-        subtitle: "Happy 27th, My Kuu",
-        description: "Today we celebrate 27 years of you bringing light into this world. You are breathtakingly beautiful, inside and out. I can't wait for all our tomorrows.",
-        image: "/images/IMG_20240914_214417_582.jpg",
+        title: "Celebrating You",
+        subtitle: "You deserve the world",
+        description: "Every celebration with you feels magical. This year, I pray you are celebrated, honored, and loved beyond measure — because you deserve nothing less.",
+        image: "/images/PXL_20201219_065438473.PORTRAIT.jpg",
+        align: "right"
+    },
+    {
+        id: 5,
+        title: "Walking in Faith",
+        subtitle: "God's grace upon you",
+        description: "Your faith inspires me every single day. This year, may God's grace overflow in your life, may His favor surround you, and may His plans for you unfold beautifully.",
+        image: "/images/PXL_20210725_121704806.PORTRAIT.jpg",
+        align: "left"
+    },
+    {
+        id: 6,
+        title: "Your Gentle Heart",
+        subtitle: "Kindness that heals",
+        description: "You love so gently and so deeply. I pray that this year, every ounce of kindness you've given comes back to you multiplied — you deserve all the love in the world.",
+        image: "/images/PXL_20211121_113441231.PORTRAIT.jpg",
+        align: "right"
+    },
+    {
+        id: 7,
+        title: "Adventures Await",
+        subtitle: "New places, new memories",
+        description: "Every adventure is better with you by my side. This year, may we explore new places, try new things, and create memories that last a lifetime.",
+        image: "/images/PXL_20211224_125443302.PORTRAIT.jpg",
+        align: "left"
+    },
+    {
+        id: 8,
+        title: "Golden Moments",
+        subtitle: "The little things",
+        description: "It's the little things with you that mean the most — a look, a touch, a shared silence. I wish you a year where every small moment feels golden.",
+        image: "/images/PXL_20220710_211041316.PORTRAIT.jpg",
+        align: "right"
+    },
+    {
+        id: 9,
+        title: "Strength & Grace",
+        subtitle: "You inspire me",
+        description: "The way you carry yourself with such strength and grace amazes me. This year, may you walk boldly into every room knowing how powerful and beautiful you are.",
+        image: "/images/PXL_20221127_220802543.PORTRAIT.jpg",
+        align: "left"
+    },
+    {
+        id: 10,
+        title: "Dreams Coming True",
+        subtitle: "Your season of harvest",
+        description: "You have worked so hard and believed so faithfully. I pray that this is the year your biggest dreams begin to manifest — you deserve every blessing coming your way.",
+        image: "/images/PXL_20221201_183345560.MP.jpg",
+        align: "right"
+    },
+    {
+        id: 11,
+        title: "Unstoppable Together",
+        subtitle: "Us against the world",
+        description: "Together, there is nothing we can't conquer. This year, may our bond grow even deeper, our love even stronger, and our partnership even more unshakable.",
+        image: "/images/IMG_6529.jpg",
+        align: "left"
+    },
+    {
+        id: 12,
+        title: "Here's to 27",
+        subtitle: "Happy Birthday, My Kuu",
+        description: "This is your year, my love. A year of answered prayers, overflowing joy, divine surprises, and a love that only grows sweeter. Happy 27th Birthday, my Clarion Clara. I love you endlessly.",
+        image: "/images/IMG_20251013_210848_209.jpg",
         align: "right"
     }
 ];
@@ -876,10 +940,10 @@ function Story() {
                                 duration: 0.8
                             },
                             className: "font-serif text-3xl sm:text-4xl md:text-5xl text-purple-900 mb-4",
-                            children: "Our Story"
+                            children: "Beautiful Moments & Wishes"
                         }, void 0, false, {
                             fileName: "[project]/src/components/Story.tsx",
-                            lineNumber: 62,
+                            lineNumber: 134,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$6_$40$babel$2b$core$40$7$2e$29$2e$0_react$2d$dom$40$19$2e$2$2e$4_react$40$19$2e$2$2e$4_$5f$react$40$19$2e$2$2e$4$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$framer$2d$motion$40$12$2e$37$2e$0_react$2d$dom$40$19$2e$2$2e$4_react$40$19$2e$2$2e$4_$5f$react$40$19$2e$2$2e$4$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].p, {
@@ -899,16 +963,16 @@ function Story() {
                                 delay: 0.2
                             },
                             className: "font-sans text-sm sm:text-base text-purple-600/80 max-w-2xl mx-auto",
-                            children: "Every moment with you is a beautiful chapter in my favorite book."
+                            children: "Every moment with you is a gift. Here are some of my favorites, along with my wishes for your beautiful new year."
                         }, void 0, false, {
                             fileName: "[project]/src/components/Story.tsx",
-                            lineNumber: 71,
+                            lineNumber: 143,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/components/Story.tsx",
-                    lineNumber: 61,
+                    lineNumber: 133,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$6_$40$babel$2b$core$40$7$2e$29$2e$0_react$2d$dom$40$19$2e$2$2e$4_react$40$19$2e$2$2e$4_$5f$react$40$19$2e$2$2e$4$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -923,12 +987,12 @@ function Story() {
                                 }
                             }, void 0, false, {
                                 fileName: "[project]/src/components/Story.tsx",
-                                lineNumber: 85,
+                                lineNumber: 157,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/src/components/Story.tsx",
-                            lineNumber: 84,
+                            lineNumber: 156,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$6_$40$babel$2b$core$40$7$2e$29$2e$0_react$2d$dom$40$19$2e$2$2e$4_react$40$19$2e$2$2e$4_$5f$react$40$19$2e$2$2e$4$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -954,7 +1018,7 @@ function Story() {
                                             className: "absolute left-4 md:left-1/2 w-4 h-4 rounded-full bg-purple-500 border-4 border-cream -translate-x-1/2 z-20 shadow-[0_0_15px_rgba(168,85,247,0.5)]"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/Story.tsx",
-                                            lineNumber: 100,
+                                            lineNumber: 171,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$6_$40$babel$2b$core$40$7$2e$29$2e$0_react$2d$dom$40$19$2e$2$2e$4_react$40$19$2e$2$2e$4_$5f$react$40$19$2e$2$2e$4$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -985,7 +1049,7 @@ function Story() {
                                                         className: "absolute inset-0 bg-purple-900/10 group-hover:bg-transparent transition-colors duration-500 z-10"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/Story.tsx",
-                                                        lineNumber: 125,
+                                                        lineNumber: 196,
                                                         columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$6_$40$babel$2b$core$40$7$2e$29$2e$0_react$2d$dom$40$19$2e$2$2e$4_react$40$19$2e$2$2e$4_$5f$react$40$19$2e$2$2e$4$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$6_$40$babel$2b$core$40$7$2e$29$2e$0_react$2d$dom$40$19$2e$2$2e$4_react$40$19$2e$2$2e$4_$5f$react$40$19$2e$2$2e$4$2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -996,18 +1060,18 @@ function Story() {
                                                         sizes: "(max-width: 768px) 100vw, 40vw"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/Story.tsx",
-                                                        lineNumber: 126,
+                                                        lineNumber: 197,
                                                         columnNumber: 21
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/components/Story.tsx",
-                                                lineNumber: 110,
+                                                lineNumber: 181,
                                                 columnNumber: 19
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/Story.tsx",
-                                            lineNumber: 109,
+                                            lineNumber: 180,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$6_$40$babel$2b$core$40$7$2e$29$2e$0_react$2d$dom$40$19$2e$2$2e$4_react$40$19$2e$2$2e$4_$5f$react$40$19$2e$2$2e$4$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1036,7 +1100,7 @@ function Story() {
                                                         children: chapter.subtitle
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/Story.tsx",
-                                                        lineNumber: 152,
+                                                        lineNumber: 222,
                                                         columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$6_$40$babel$2b$core$40$7$2e$29$2e$0_react$2d$dom$40$19$2e$2$2e$4_react$40$19$2e$2$2e$4_$5f$react$40$19$2e$2$2e$4$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -1044,7 +1108,7 @@ function Story() {
                                                         children: chapter.title
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/Story.tsx",
-                                                        lineNumber: 155,
+                                                        lineNumber: 225,
                                                         columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$6_$40$babel$2b$core$40$7$2e$29$2e$0_react$2d$dom$40$19$2e$2$2e$4_react$40$19$2e$2$2e$4_$5f$react$40$19$2e$2$2e$4$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1052,46 +1116,46 @@ function Story() {
                                                         children: chapter.description
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/Story.tsx",
-                                                        lineNumber: 158,
+                                                        lineNumber: 228,
                                                         columnNumber: 21
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/components/Story.tsx",
-                                                lineNumber: 138,
+                                                lineNumber: 209,
                                                 columnNumber: 19
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/Story.tsx",
-                                            lineNumber: 137,
+                                            lineNumber: 208,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, chapter.id, true, {
                                     fileName: "[project]/src/components/Story.tsx",
-                                    lineNumber: 93,
+                                    lineNumber: 165,
                                     columnNumber: 15
                                 }, this))
                         }, void 0, false, {
                             fileName: "[project]/src/components/Story.tsx",
-                            lineNumber: 91,
+                            lineNumber: 163,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/components/Story.tsx",
-                    lineNumber: 82,
+                    lineNumber: 154,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/src/components/Story.tsx",
-            lineNumber: 60,
+            lineNumber: 132,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/src/components/Story.tsx",
-        lineNumber: 56,
+        lineNumber: 128,
         columnNumber: 5
     }, this);
 }

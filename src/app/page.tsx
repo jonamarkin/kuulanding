@@ -10,6 +10,7 @@ import Envelope from "@/components/Envelope";
 import Reasons from "@/components/Reasons";
 import Story from "@/components/Story";
 import Gallery from "@/components/Gallery";
+import Psalm from "@/components/Psalm";
 import Footer from "@/components/Footer";
 
 export default function Home() {
@@ -158,6 +159,7 @@ export default function Home() {
                 <Reasons />
                 <Story />
                 <Gallery />
+                <Psalm />
                 <Footer />
               </motion.div>
             )}
