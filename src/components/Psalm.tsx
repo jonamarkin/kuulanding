@@ -21,9 +21,25 @@ const verses = [
 export default function Psalm() {
   return (
     <section className="py-20 sm:py-28 px-6 sm:px-8 bg-gradient-to-b from-purple-50/30 via-cream to-purple-50/30 relative overflow-hidden">
-      {/* Decorative glows */}
-      <div className="absolute top-1/4 -left-32 w-80 h-80 bg-purple-200/15 rounded-full blur-3xl pointer-events-none" />
-      <div className="absolute bottom-1/4 -right-32 w-80 h-80 bg-fuchsia-200/15 rounded-full blur-3xl pointer-events-none" />
+      {/* Decorative glows with floating animation */}
+      <motion.div
+        animate={{
+          y: [0, -30, 0],
+          x: [0, 20, 0],
+          scale: [1, 1.1, 1],
+        }}
+        transition={{ duration: 15, repeat: Infinity, ease: "easeInOut" }}
+        className="absolute top-1/4 -left-32 w-80 h-80 bg-purple-200/15 rounded-full blur-3xl pointer-events-none"
+      />
+      <motion.div
+        animate={{
+          y: [0, 40, 0],
+          x: [0, -20, 0],
+          scale: [1, 1.2, 1],
+        }}
+        transition={{ duration: 18, repeat: Infinity, ease: "easeInOut", delay: 2 }}
+        className="absolute bottom-1/4 -right-32 w-80 h-80 bg-fuchsia-200/15 rounded-full blur-3xl pointer-events-none"
+      />
 
       <div className="max-w-3xl mx-auto relative z-10">
         {/* Header */}

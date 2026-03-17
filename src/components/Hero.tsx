@@ -12,6 +12,7 @@ export default function Hero() {
     offset: ["start start", "end start"],
   });
 
+  const scale = useTransform(scrollYProgress, [0, 1], [1, 1.15]);
   const y = useTransform(scrollYProgress, [0, 1], ["0%", "50%"]);
   const opacity = useTransform(scrollYProgress, [0, 0.8], [1, 0]);
 
@@ -20,8 +21,8 @@ export default function Hero() {
       ref={ref}
       className="relative h-screen-safe w-full flex items-center justify-center overflow-hidden bg-purple-50"
     >
-      {/* Background Image with Parallax */}
-      <motion.div className="absolute inset-0 z-0" style={{ y, opacity }}>
+      {/* Background Image with Parallax and slow Scale */}
+      <motion.div className="absolute inset-0 z-0" style={{ y, opacity, scale }}>
         <div className="absolute inset-0 bg-gradient-to-b from-purple-900/60 via-purple-900/30 to-cream z-10 md:from-purple-900/40 md:via-purple-900/20" />
         <Image
           src="/images/NOIR7397-EDIT.jpg"
@@ -41,11 +42,21 @@ export default function Hero() {
           transition={{ duration: 1.5, ease: "easeOut" }}
           className="mb-4 sm:mb-6 flex items-center justify-center gap-2 sm:gap-3"
         >
-          <Sparkles className="text-purple-300" size={20} />
+          <motion.div
+            animate={{ opacity: [0.4, 1, 0.4], scale: [0.9, 1.1, 0.9] }}
+            transition={{ duration: 3, repeat: Infinity, ease: "easeInOut" }}
+          >
+            <Sparkles className="text-purple-300" size={20} />
+          </motion.div>
           <span className="font-sans tracking-[0.2em] sm:tracking-[0.3em] uppercase text-purple-100 text-xs sm:text-sm md:text-base font-medium">
             To My Clarion Clara
           </span>
-          <Sparkles className="text-purple-300" size={20} />
+          <motion.div
+            animate={{ opacity: [0.4, 1, 0.4], scale: [0.9, 1.1, 0.9] }}
+            transition={{ duration: 3, repeat: Infinity, ease: "easeInOut", delay: 1.5 }}
+          >
+            <Sparkles className="text-purple-300" size={20} />
+          </motion.div>
         </motion.div>
 
         <motion.h1

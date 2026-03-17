@@ -124,46 +124,36 @@ export default function Reasons() {
               />
 
               <AnimatePresence mode="wait">
-                {activeId !== reason.id ? (
-                  <motion.div
-                    key="front"
-                    initial={{ opacity: 0, rotateY: -90 }}
-                    animate={{ opacity: 1, rotateY: 0 }}
-                    exit={{ opacity: 0, rotateY: 90 }}
-                    transition={{ duration: 0.3 }}
-                    className="absolute inset-0 flex flex-col items-center justify-center p-6 text-center bg-white/70 backdrop-blur-sm"
+                <motion.div
+                  className="absolute inset-0 flex flex-col items-center justify-center p-6 text-center bg-white/70 backdrop-blur-sm transition-opacity duration-300 md:group-hover:opacity-0 md:group-hover:pointer-events-none"
+                  style={{ opacity: activeId === reason.id ? 0 : 1 }}
+                >
+                  <div
+                    className={`p-4 rounded-full bg-white shadow-sm mb-4 ${reason.color}`}
                   >
-                    <div
-                      className={`p-4 rounded-full bg-white shadow-sm mb-4 ${reason.color}`}
-                    >
-                      <reason.icon size={32} />
-                    </div>
-                    <h3 className="font-serif text-xl sm:text-2xl text-purple-900">
-                      {reason.title}
-                    </h3>
-                    <p className="text-xs font-sans uppercase tracking-widest text-purple-400 mt-4 opacity-0 group-hover:opacity-100 transition-opacity">
-                      Tap to reveal
-                    </p>
-                  </motion.div>
-                ) : (
-                  <motion.div
-                    key="back"
-                    initial={{ opacity: 0, rotateY: 90 }}
-                    animate={{ opacity: 1, rotateY: 0 }}
-                    exit={{ opacity: 0, rotateY: -90 }}
-                    transition={{ duration: 0.3 }}
-                    className="absolute inset-0 flex flex-col items-center justify-center p-8 text-center bg-white/80 backdrop-blur-sm"
-                  >
-                    <p className="font-sans text-base sm:text-lg text-purple-800 leading-relaxed">
-                      &ldquo;{reason.description}&rdquo;
-                    </p>
-                    <Heart
-                      className="text-purple-300 mt-6"
-                      size={20}
-                      fill="currentColor"
-                    />
-                  </motion.div>
-                )}
+                    <reason.icon size={32} />
+                  </div>
+                  <h3 className="font-serif text-xl sm:text-2xl text-purple-900">
+                    {reason.title}
+                  </h3>
+                  <p className="text-xs font-sans uppercase tracking-widest text-purple-400 mt-4 opacity-0 group-hover:opacity-100 transition-opacity md:hidden">
+                    Tap to reveal
+                  </p>
+                </motion.div>
+
+                <motion.div
+                  className="absolute inset-0 flex flex-col items-center justify-center p-8 text-center bg-white/80 backdrop-blur-sm transition-opacity duration-300 opacity-0 md:group-hover:opacity-100"
+                  style={{ opacity: activeId === reason.id ? 1 : undefined }}
+                >
+                  <p className="font-sans text-base sm:text-lg text-purple-800 leading-relaxed">
+                    &ldquo;{reason.description}&rdquo;
+                  </p>
+                  <Heart
+                    className="text-purple-300 mt-6"
+                    size={20}
+                    fill="currentColor"
+                  />
+                </motion.div>
               </AnimatePresence>
             </motion.div>
           ))}

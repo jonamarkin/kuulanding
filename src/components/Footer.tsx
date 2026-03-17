@@ -25,11 +25,16 @@ export default function Footer() {
         transition={{ duration: 1, ease: "easeOut" }}
         className="relative z-10"
       >
-        <Heart
-          className="text-purple-400 mx-auto mb-8"
-          size={48}
-          fill="currentColor"
-        />
+        <motion.div
+          animate={{ scale: [1, 1.15, 1] }}
+          transition={{ duration: 1.5, repeat: Infinity, ease: "easeInOut" }}
+        >
+          <Heart
+            className="text-purple-400 mx-auto mb-8"
+            size={48}
+            fill="currentColor"
+          />
+        </motion.div>
 
         <h2 className="font-script text-4xl sm:text-5xl md:text-7xl mb-4 sm:mb-6 text-purple-100">
           I Love You, Kuu

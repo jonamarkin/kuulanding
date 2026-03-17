@@ -88,10 +88,10 @@ const chapters = [
   },
   {
     id: 10,
-    title: "Dreams Coming True",
+    title: "Unbounded Growth",
     subtitle: "Your season of harvest",
     description:
-      "You have worked so hard and believed so faithfully. I pray that this is the year your biggest dreams begin to manifest — you deserve every blessing coming your way.",
+      "You have worked so hard and believed so faithfully. I pray for your continuous growth in every single aspect of your life—spiritually, personally, and professionally. May this be the year your biggest dreams begin to manifest.",
     image: "/images/PXL_20221201_183345560.MP.jpg",
     align: "right" as const,
   },

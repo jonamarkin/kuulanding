@@ -2163,6 +2163,12 @@
   }
 
   @media (min-width: 48rem) {
+    .md\:hidden {
+      display: none;
+    }
+  }
+
+  @media (min-width: 48rem) {
     .md\:h-20 {
       height: calc(var(--spacing) * 20);
     }
@@ -2319,6 +2325,30 @@
     .md\:text-xl {
       font-size: var(--text-xl);
       line-height: var(--tw-leading, var(--text-xl--line-height));
+    }
+  }
+
+  @media (min-width: 48rem) {
+    @media (hover: hover) {
+      .md\:group-hover\:pointer-events-none:is(:where(.group):hover *) {
+        pointer-events: none;
+      }
+    }
+  }
+
+  @media (min-width: 48rem) {
+    @media (hover: hover) {
+      .md\:group-hover\:opacity-0:is(:where(.group):hover *) {
+        opacity: 0;
+      }
+    }
+  }
+
+  @media (min-width: 48rem) {
+    @media (hover: hover) {
+      .md\:group-hover\:opacity-100:is(:where(.group):hover *) {
+        opacity: 1;
+      }
     }
   }
 
